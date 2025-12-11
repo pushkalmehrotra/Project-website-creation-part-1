@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <title>Mount Carmel School</title>
+    <style>
+        body {
+            font-family: 'Baloo Tamma 2', cursive;
+            background-color: #f0f8ff;
+        }
+        .navigation {
+            background-color: #003366; /* Navy blue for school theme */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .navigation-link:hover {
+            text-decoration: none;
+            color: #ffcc00 !important; /* Gold hover for emphasis */
+        }
+        section {
+            padding: 60px 0;
+        }
+        #home {
+            background-color: #ffffff;
+            text-align: center;
+        }
+        #about {
+            background-color: #e6f7ff;
+        }
+        #academics {
+            background-color: #ffffff;
+        }
+        #admissions {
+            background-color: #e6f7ff;
+        }
+        #contact {
+            background-color: #ffffff;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hero-image {
+            max-height: 400px;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fas fa-graduation-cap fa-2x text-warning pb-3"></i> <!-- Changed to graduation cap -->
+                <h5 class="d-inline pl-2 text-white">Mount Carmel</h5>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-2">
+                        <a href="#home" class="text-white navigation-link">Home</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#academics" class="text-white navigation-link">Academics</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#admissions" class="text-white navigation-link">Admissions</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#contact" class="text-white navigation-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Welcome to Mount Carmel School</h1>
+                <p>Excellence in Education Since 1950</p>
+                <img src="https://via.placeholder.com/800x400?text=School+Campus" alt="School Campus" class="img-fluid hero-image mt-3">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Mount Carmel</h2>
+                <p>Mount Carmel School is dedicated to providing a nurturing environment where students excel academically, socially, and personally. Our mission is to foster lifelong learners through innovative teaching and strong community values.</p>
+                <p>Founded in 1950, we pride ourselves on a rich history of educational excellence and holistic development.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/400x300?text=School+Building" alt="School Building" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="container">
+        <h2 class="text-center">Academics</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Elementary" class="card-img-top" alt="Elementary">
+                    <div class="card-body">
+                        <h5 class="card-title">Elementary</h5>
+                        <p class="card-text">Building strong foundations in core subjects with engaging activities.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Middle+School" class="card-img-top" alt="Middle School">
+                    <div class="card-body">
+                        <h5 class="card-title">Middle School</h5>
+                        <p class="card-text">Exploring advanced topics and developing critical thinking skills.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=High+School" class="card-img-top" alt="High School">
+                    <div class="card-body">
+                        <h5 class="card-title">High School</h5>
+                        <p class="card-text">Preparing students for college and beyond with specialized programs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="container">
+        <h2 class="text-center">Admissions</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p>Join our vibrant community! Admissions are open for the upcoming academic year. We offer a seamless process for new students.</p>
+                <ul>
+                    <li>Application forms available online.</li>
+                    <li>Entrance exams and interviews.</li>
+                    <li>Scholarships for deserving candidates.</li>
+                </ul>
+                <a href="#" class="btn btn-success btn-lg">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <p>Get in touch with Mount Carmel School:</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 School Lane, City, State</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@mountcarmel.edu</p>
+                <a href="#" class="btn btn-outline-primary mx-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="btn btn-outline-info mx-2"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="btn btn-outline-danger mx-2"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Mount Carmel School. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
